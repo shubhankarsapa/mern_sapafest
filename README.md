@@ -1,40 +1,43 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SapaFest | Full-Stack MERN Application
+## Introduction 
+Introducing SapaFest, a dynamic full-stack MERN application built atop the powerful Next.js 14 framework, designed to redefine the realm of event management and participation. SapaFest emerges as a global epicenter for a diversity of events, offering an intuitive platform that facilitates seamless Stripe payment integrations for ticket purchases. Whether you're looking to attend the most talked-about events or orchestrate your own, SapaFest provides the tools and technology to bring people together, transforming the art of event engagement across the globe.
 
-## Getting Started
+## Tech Stack
+- Node.js
+- Next.js
+- TypeScript
+- TailwindCSS
+- Stripe
+- Zod
+- React Hook Form
+- Shadcn
+- uploadthing
 
-First, run the development server:
+## Features
+👉 Streamlined User Management with Clerk: Our platform harnesses Clerk for robust user management, offering secure and streamlined sign-up, sign-in, and user profile functionalities.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+👉 Full-Spectrum Event Management: Users are equipped with complete control to craft, peruse, refine, and remove events(CRUD)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Create: Initiate events with ease, detailing the essentials like title, date, venue, and more.
+  
+- Discover: Access a curated catalogue of events, diving into comprehensive descriptions and itineraries.
+  
+- Update: Modify existing events to keep information current and relevant.
+  
+- Delete: Maintain the platform's integrity by removing outdated listings.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+👉 Related Events Discovery: Enhance user engagement by smartly linking related events on each event detail page.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+👉 User-Centric Event Organization: Events are neatly arranged, presenting a tailored view on user profiles for the events they've created.
 
-## Learn More
+👉 Advanced Search & Filtering: A powerful search engine paired with versatile filtering tools allows users to pinpoint events that cater to their unique tastes.
 
-To learn more about Next.js, take a look at the following resources:
+👉 Seamless Category Expansion: Add new event categories with zero hassle, ensuring the platform stays dynamic and ever-evolving.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👉 Stripe-Powered Payments: Checkout is a breeze with Stripe's secure payment gateway, ensuring a smooth transactional experience.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+👉 Order Oversight: A detailed order tracking system offers users a transparent view of their event-related transactions.
 
-## Deploy on Vercel
+👉 Expedited Order Search: Quickly locate and manage orders with an efficient search feature.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-=======
-# MERN_SapaFest
->>>>>>> 1690110833d64346897e1edefce20790a09cb37e
+And that's not all—our platform is also built with an eye towards code elegance and reusability, making it a robust foundation for future enhancements.
