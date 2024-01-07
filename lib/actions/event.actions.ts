@@ -182,7 +182,7 @@ export async function getRelatedEventsByCategory({
   try {
     await connectToDatabase();
 
-    const skipAmount = (Number(page) - 1) * limit;
+    const skipAmount = (page - 1) * limit;
     const conditions = {
       $and: [{ category: categoryId }, { _id: { $ne: eventId } }],
     };
