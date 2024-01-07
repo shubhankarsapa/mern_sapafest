@@ -177,7 +177,7 @@ export async function getRelatedEventsByCategory({
   categoryId,
   eventId,
   limit = 3,
-  page = 1,
+  page,
 }: GetRelatedEventsByCategoryParams) {
   try {
     await connectToDatabase();
